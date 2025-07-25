@@ -11,7 +11,7 @@ const EmptyStateCard = ({
         <img width={72} height={72} src={emptyImage} alt="empty_image" />
         <h6 className="text-xs">No Request yet</h6>
         <a href={emptyLink} className="text-decoration-none">
-          <button className="w-[153px] h-[40px] rounded-sm px-6 py-3 text-center font-medium text-white bg-[#0D6EFD] text-xs">
+          <button className="w-[153px] h-[40px] rounded-sm px-6 py-3 cursor-pointer text-center font-medium text-white bg-[#0D6EFD] text-xs">
             {emptyButton}
           </button>
         </a>

@@ -16,7 +16,7 @@ export const RightSection = () => {
         <div className="mt-[80px]">
       <div className="">
         <h1 className="font-semibold text-xl text-[#1D2433] mb-1 leading-7">Trip Itineraries</h1>
-        <h6 className="font-normal text-base text-[#647995] leading-[22px]">
+        <h6 className="font-normal text-base text-[#647995] mb-8 leading-[22px]">
           Your trip itineraries are placed here
         </h6>
       </div>
