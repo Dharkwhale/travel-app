@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Navbar } from '../components/Navbar';
-import { Sidebar } from '../components/Sidebar';
+
 import { RightSection } from '../components/RightSection';
 // import { FlightProvider } from '../context/FlightContext';
 import { FlightList } from '../pages/flights';

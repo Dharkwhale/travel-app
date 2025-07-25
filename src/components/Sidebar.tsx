@@ -25,7 +25,7 @@ export const Sidebar = () => {
   ];
 
   return (
-    <div className="border-[#ffffff] font-poppins  rounded-md h-[700px] w-[350px] bg-[#ffffff]  mt-22">
+    <div className="border-[#ffffff] font-poppins  rounded-md h-[700px] w-[270px] bg-[#ffffff]  mt-22">
       <div className="pt-6 pl-6 ">
         {/* Sidebar items */}
         {sidebarItems.map((item, index) => (
