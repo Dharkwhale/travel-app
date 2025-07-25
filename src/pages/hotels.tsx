@@ -6,6 +6,7 @@ import { PiWarehouseBold } from "react-icons/pi";
 import { searchNewHotels } from "../api/bookingAPI";
 import type { Hotel } from "../constants/interface";
 import LoadingScreen from "../components/LoadingScreen";
+import Layout from "../Layout"
 
 export const HotelList = () => {
   const [hotels, setHotels] = useState<Hotel[]>([]);
@@ -32,6 +33,7 @@ export const HotelList = () => {
   if (loading) return <LoadingScreen />
 
   return (
+    <Layout>
     <div className="w-[100%] p-6 mt-22 pb-20 gap-16 bg-white rounded">
       <div className="mb-8">
         <h1 className="font-bold text-xl text-[#1d2433] mb-1">
@@ -75,6 +77,7 @@ export const HotelList = () => {
         )}
       </div>
     </div>
+    </Layout>
   );
 };
 

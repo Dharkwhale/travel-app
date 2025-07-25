@@ -5,6 +5,7 @@ import { PiAirplaneInFlightBold } from "react-icons/pi";
 import type { FlightCardProps } from "../constants/interface";
 import { searchNewFlight } from "../api/bookingAPI";
 import LoadingScreen from "../components/LoadingScreen";
+import Layout from "../Layout"
 
 export const FlightList = () => {
   const [flightsData, setFlightsData] = useState<FlightCardProps[]>([]);
@@ -39,6 +40,7 @@ export const FlightList = () => {
 
  if (isLoading) return <LoadingScreen />;
   return (
+    <Layout>
     <div className="w-[100%] p-6 mt-22 pb-20 gap-16 bg-white rounded">
       <div className="mb-8">
         <h1 className="font-bold text-xl text-[#1d2433] mb-1">
@@ -76,5 +78,6 @@ export const FlightList = () => {
         )}
       </div>
     </div>
+    </Layout>
   );
 };

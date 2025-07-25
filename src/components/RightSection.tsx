@@ -7,8 +7,10 @@ import { ActivitySection } from "./ActivitySection"
 import Flights from "./flights/Flights"
 import Hotels from "./hotels/Hotels"
 import Activities from "./activities/Activities"
+import Layout from "../Layout"
 export const RightSection = () => {
   return (
+    <Layout>
     <div className="bg-[#ffffff] p-6 border-[#ffffff]  mt-22 ">
         <Hero />
         <TripHeader />
@@ -28,6 +30,7 @@ export const RightSection = () => {
       </div>
     </div>
     </div>
+    </Layout>
   )
 }
 

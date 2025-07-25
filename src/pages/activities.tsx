@@ -6,6 +6,7 @@ import { PiRoadHorizonBold } from "react-icons/pi";
 import type { Activity } from "../constants/interface";
 import { searchNewActivities } from "../api/bookingAPI";
 import LoadingScreen from "../components/LoadingScreen";
+import Layout from "../Layout"
 
 export const ActivityList = () => {
   const [activities, setActivities] = useState<Activity[]>([]);
@@ -30,6 +31,7 @@ export const ActivityList = () => {
 
     
   return (
+    <Layout>
     <div className="w-[100%] p-6 mt-22 pb-20 gap-16 bg-white rounded">
       <div className="mb-8">
         <h1 className="font-bold text-xl text-[#1d2433] mb-1">
@@ -70,6 +72,7 @@ export const ActivityList = () => {
         )}
       </div>
     </div>
+    </Layout>
   );
 };
 
