@@ -1,5 +1,5 @@
 
-//import react from 'react';
+
 import { IoIosClose } from "react-icons/io";
 import { PiPlusBold } from "react-icons/pi";
 import { IoLocationOutline } from "react-icons/io5";
@@ -7,7 +7,7 @@ import { FaStar } from "react-icons/fa";
 import { PiClock } from "react-icons/pi";
 import { truncateText } from "../../utils/truncateText";
 import type { ActivityCardProps } from "../../constants/interface";
-import caret from "../../../src/assets/images/caret.svg";
+import caret from "../../assets/images/caret.svg";
 
 const ActivityCard = ({
   cardImage,

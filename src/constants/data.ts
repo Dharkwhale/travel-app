@@ -375,7 +375,7 @@ export const hotelData = [
       reviewScore: 9.0,
       reviewCount: 250,
       photoUrls: [
-        "https://cf.bstatic.com/xdata/images/hotel/square60/252005217.jpg?k=9d4ae263d055f30dd78158dbf2f6c34900e5c9078b1a545caa28a3c8466b6a69&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/square60/32810813.jpg?k=7b5f861c6aad4e51ef13e55c8b68ac945cebdf77aeca84d9c2798bb9af46d24d&o=",
       ],
       priceBreakdown: {
         strikethroughPrice: {

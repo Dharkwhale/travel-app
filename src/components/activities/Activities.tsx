@@ -39,7 +39,7 @@ const Activities = () => {
 
   return (
     <div className="bg-[#0054E4] p-4 rounded">
-      <div className="flex">
+      <div className="flexBetween">
         <div className="flex gap-2 items-end">
           <PiRoadHorizonBold size={22} color={"#fff"} />
           <span className="white-subheading text-[#ffffff]"> Activities</span>
