@@ -34,8 +34,14 @@ const SearchBar = ({
   useEffect(() => {
     const fetchData = async () => {
       const flightData = await searchNewFlight();
+      console.log("Flight Data:", flightData);
+
       const activityData = await searchNewActivities();
+      console.log("Activity Data:", activityData);
+
       const hotelData = await searchNewHotels();
+      
+
       setFlightsData(flightData);
       setActivitiesData(activityData);
       setHotelsData(hotelData);
@@ -43,6 +49,7 @@ const SearchBar = ({
     };
     fetchData();
   }, []);
+  
 
   useEffect(() => {
     const storedFlights = JSON.parse(
