@@ -27,11 +27,11 @@ const FlightCard = ({
               <div className="text-xl font-semibold">
                 <span>{cardTitle}</span>
               </div>
-              <div className="flex gap-1 font-medium">
+              <div className="flex gap-2 font-medium">
                 <div className="flexSubCenter text-[#676E7E] text-sm">
                   <span>AA-829</span>
                 </div>
-                <div className="w-[50px] h-[25px] rounded-md px-1 py-1 items-center justify-center flexCenter font-extralight text-white bg-blue-800 text-[9px]">
+                <div className="w-[70px] h-[25px] rounded-md px-1 py-1 items-center justify-center flex font-extralight text-white bg-blue-800 text-[11px]">
                   First Class
                 </div>
               </div>

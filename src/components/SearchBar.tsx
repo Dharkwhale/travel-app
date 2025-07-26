@@ -212,9 +212,9 @@ const SearchBar = ({
                         <span>{item.minPrice.units}</span>
                       </div>
                       <button
-                        className={`py-1 text-white text-[10px] rounded-md flexCenter gap-1 ${
+                        className={`py-1 text-white text-[10px] rounded-md flex gap-1 ${
                           addedFlights.some((f) => f.iataCode === item.iataCode)
-                            ? "bg-red-500 px-2"
+                            ? "bg-red-500 px-3"
                             : "bg-blue-500 px-5"
                         }`}
                         onClick={() => handleAddRemove(item, "flight")}
@@ -257,9 +257,9 @@ const SearchBar = ({
                         <span>{item.representativePrice.chargeAmount}</span>
                       </div>
                       <button
-                        className={`py-1 text-white text-[10px] rounded-md flexCenter gap-1 ${
+                        className={`py-1 text-white text-[10px] rounded-md flex gap-1 ${
                           addedActivities.some((a) => a.id === item.id)
-                            ? "bg-red-500 px-2"
+                            ? "bg-red-500 px-3"
                             : "bg-blue-500 px-5"
                         }`}
                         onClick={() => handleAddRemove(item, "activity")}
@@ -302,9 +302,9 @@ const SearchBar = ({
                         </span>
                       </div>
                       <button
-                        className={`py-1 text-white text-[10px] rounded-md flexCenter gap-1 ${
+                        className={`py-1 text-white text-[10px] rounded-md flex gap-1 ${
                           addedHotels.some((h) => h.hotel_id === item.hotel_id)
-                            ? "bg-red-500 px-2"
+                            ? "bg-red-500 px-3"
                             : "bg-blue-500 px-5"
                         }`}
                         onClick={() => handleAddRemove(item, "hotel")}

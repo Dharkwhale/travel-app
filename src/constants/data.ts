@@ -375,7 +375,7 @@ export const hotelData = [
       reviewScore: 9.0,
       reviewCount: 250,
       photoUrls: [
-        "https://cf.bstatic.com/xdata/images/hotel/square60/32810813.jpg?k=7b5f861c6aad4e51ef13e55c8b68ac945cebdf77aeca84d9c2798bb9af46d24d&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/square60/252005217.jpg?k=9d4ae263d055f30dd78158dbf2f6c34900e5c9078b1a545caa28a3c8466b6a69&o=",
       ],
       priceBreakdown: {
         strikethroughPrice: {
@@ -403,7 +403,7 @@ export const hotelData = [
       reviewScore: 8.9,
       reviewCount: 180,
       photoUrls: [
-        "https://cf.bstatic.com/xdata/images/hotel/square60/465549681.jpg?k=8c903ab7bf0fd906a3fe7b456463805c4026db2dab6706341a83d385160f0f9b&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/square60/495003037.jpg?k=937caa5f5495a97fe8fc464131d6d7dafb0b8d8897a5ff5511fa99dcd136fdfa&o=",
       ],
       priceBreakdown: {
         strikethroughPrice: {
